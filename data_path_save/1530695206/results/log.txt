@@ -1,0 +1,65 @@
+2018-07-04 17:06:46,528 - main.py[line:78] - INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1528700038', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='train', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2018-07-04 17:06:52,375 - model.py[line:219] - INFO: 2018-07-04 17:06:48 epoch 1, step 1, loss: 85.86, global_step: 1
+2018-07-04 17:06:52,375 - model.py[line:219] - INFO: 2018-07-04 17:06:48 epoch 1, step 1, loss: 85.86, global_step: 1
+2018-07-04 17:07:02,783 - model.py[line:219] - INFO: 2018-07-04 17:06:48 epoch 1, step 5, loss: 57.96, global_step: 5
+2018-07-04 17:07:02,783 - model.py[line:219] - INFO: 2018-07-04 17:06:48 epoch 1, step 5, loss: 57.96, global_step: 5
+2018-07-04 17:07:03,482 - model.py[line:226] - INFO: ===========validation / test===========
+2018-07-04 17:07:03,482 - model.py[line:226] - INFO: ===========validation / test===========
+2018-07-04 17:07:08,539 - model.py[line:321] - INFO: processed 9814 tokens with 824 phrases; found: 392 phrases; correct: 8.
+2018-07-04 17:07:08,539 - model.py[line:321] - INFO: processed 9814 tokens with 824 phrases; found: 392 phrases; correct: 8.
+2018-07-04 17:07:08,539 - model.py[line:321] - INFO: accuracy:  66.89%; precision:   2.04%; recall:   0.97%; FB1:   1.32
+2018-07-04 17:07:08,539 - model.py[line:321] - INFO: accuracy:  66.89%; precision:   2.04%; recall:   0.97%; FB1:   1.32
+2018-07-04 17:07:08,539 - model.py[line:321] - INFO: Organization: precision:   0.00%; recall:   0.00%; FB1:   0.00  22
+2018-07-04 17:07:08,539 - model.py[line:321] - INFO: Organization: precision:   0.00%; recall:   0.00%; FB1:   0.00  22
+2018-07-04 17:07:08,539 - model.py[line:321] - INFO: Process: precision:   0.00%; recall:   0.00%; FB1:   0.00  31
+2018-07-04 17:07:08,539 - model.py[line:321] - INFO: Process: precision:   0.00%; recall:   0.00%; FB1:   0.00  31
+2018-07-04 17:07:08,539 - model.py[line:321] - INFO: State: precision:   2.36%; recall:   1.07%; FB1:   1.47  339
+2018-07-04 17:07:08,539 - model.py[line:321] - INFO: State: precision:   2.36%; recall:   1.07%; FB1:   1.47  339
+2018-07-04 17:07:11,282 - model.py[line:219] - INFO: 2018-07-04 17:07:08 epoch 2, step 1, loss: 52.66, global_step: 6
+2018-07-04 17:07:11,282 - model.py[line:219] - INFO: 2018-07-04 17:07:08 epoch 2, step 1, loss: 52.66, global_step: 6
+2018-07-04 17:07:20,721 - model.py[line:219] - INFO: 2018-07-04 17:07:08 epoch 2, step 5, loss: 40.41, global_step: 10
+2018-07-04 17:07:20,721 - model.py[line:219] - INFO: 2018-07-04 17:07:08 epoch 2, step 5, loss: 40.41, global_step: 10
+2018-07-04 17:07:21,267 - model.py[line:226] - INFO: ===========validation / test===========
+2018-07-04 17:07:21,267 - model.py[line:226] - INFO: ===========validation / test===========
+2018-07-04 17:07:26,104 - model.py[line:321] - INFO: processed 9814 tokens with 824 phrases; found: 259 phrases; correct: 16.
+2018-07-04 17:07:26,104 - model.py[line:321] - INFO: processed 9814 tokens with 824 phrases; found: 259 phrases; correct: 16.
+2018-07-04 17:07:26,104 - model.py[line:321] - INFO: accuracy:  67.27%; precision:   6.18%; recall:   1.94%; FB1:   2.95
+2018-07-04 17:07:26,104 - model.py[line:321] - INFO: accuracy:  67.27%; precision:   6.18%; recall:   1.94%; FB1:   2.95
+2018-07-04 17:07:26,104 - model.py[line:321] - INFO: Organization: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+2018-07-04 17:07:26,104 - model.py[line:321] - INFO: Organization: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+2018-07-04 17:07:26,104 - model.py[line:321] - INFO: Process: precision:   0.00%; recall:   0.00%; FB1:   0.00  2
+2018-07-04 17:07:26,104 - model.py[line:321] - INFO: Process: precision:   0.00%; recall:   0.00%; FB1:   0.00  2
+2018-07-04 17:07:26,104 - model.py[line:321] - INFO: State: precision:   6.23%; recall:   2.13%; FB1:   3.18  257
+2018-07-04 17:07:26,104 - model.py[line:321] - INFO: State: precision:   6.23%; recall:   2.13%; FB1:   3.18  257
+2018-07-04 17:07:29,158 - model.py[line:219] - INFO: 2018-07-04 17:07:26 epoch 3, step 1, loss: 38.56, global_step: 11
+2018-07-04 17:07:29,158 - model.py[line:219] - INFO: 2018-07-04 17:07:26 epoch 3, step 1, loss: 38.56, global_step: 11
+2018-07-04 17:07:40,329 - model.py[line:219] - INFO: 2018-07-04 17:07:26 epoch 3, step 5, loss: 42.38, global_step: 15
+2018-07-04 17:07:40,329 - model.py[line:219] - INFO: 2018-07-04 17:07:26 epoch 3, step 5, loss: 42.38, global_step: 15
+2018-07-04 17:07:40,858 - model.py[line:226] - INFO: ===========validation / test===========
+2018-07-04 17:07:40,858 - model.py[line:226] - INFO: ===========validation / test===========
+2018-07-04 17:07:45,702 - model.py[line:321] - INFO: processed 9814 tokens with 824 phrases; found: 97 phrases; correct: 4.
+2018-07-04 17:07:45,702 - model.py[line:321] - INFO: processed 9814 tokens with 824 phrases; found: 97 phrases; correct: 4.
+2018-07-04 17:07:45,702 - model.py[line:321] - INFO: accuracy:  69.30%; precision:   4.12%; recall:   0.49%; FB1:   0.87
+2018-07-04 17:07:45,702 - model.py[line:321] - INFO: accuracy:  69.30%; precision:   4.12%; recall:   0.49%; FB1:   0.87
+2018-07-04 17:07:45,702 - model.py[line:321] - INFO: Organization: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+2018-07-04 17:07:45,702 - model.py[line:321] - INFO: Organization: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+2018-07-04 17:07:45,702 - model.py[line:321] - INFO: Process: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+2018-07-04 17:07:45,702 - model.py[line:321] - INFO: Process: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+2018-07-04 17:07:45,702 - model.py[line:321] - INFO: State: precision:   4.12%; recall:   0.53%; FB1:   0.94  97
+2018-07-04 17:07:45,702 - model.py[line:321] - INFO: State: precision:   4.12%; recall:   0.53%; FB1:   0.94  97
+2018-07-04 17:07:49,152 - model.py[line:219] - INFO: 2018-07-04 17:07:45 epoch 4, step 1, loss: 40.45, global_step: 16
+2018-07-04 17:07:49,152 - model.py[line:219] - INFO: 2018-07-04 17:07:45 epoch 4, step 1, loss: 40.45, global_step: 16
+2018-07-04 17:07:58,329 - model.py[line:219] - INFO: 2018-07-04 17:07:45 epoch 4, step 5, loss: 34.4, global_step: 20
+2018-07-04 17:07:58,329 - model.py[line:219] - INFO: 2018-07-04 17:07:45 epoch 4, step 5, loss: 34.4, global_step: 20
+2018-07-04 17:07:58,920 - model.py[line:226] - INFO: ===========validation / test===========
+2018-07-04 17:07:58,920 - model.py[line:226] - INFO: ===========validation / test===========
+2018-07-04 17:08:03,458 - model.py[line:321] - INFO: processed 9814 tokens with 824 phrases; found: 115 phrases; correct: 8.
+2018-07-04 17:08:03,458 - model.py[line:321] - INFO: processed 9814 tokens with 824 phrases; found: 115 phrases; correct: 8.
+2018-07-04 17:08:03,459 - model.py[line:321] - INFO: accuracy:  69.59%; precision:   6.96%; recall:   0.97%; FB1:   1.70
+2018-07-04 17:08:03,459 - model.py[line:321] - INFO: accuracy:  69.59%; precision:   6.96%; recall:   0.97%; FB1:   1.70
+2018-07-04 17:08:03,459 - model.py[line:321] - INFO: Organization: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+2018-07-04 17:08:03,459 - model.py[line:321] - INFO: Organization: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+2018-07-04 17:08:03,459 - model.py[line:321] - INFO: Process: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+2018-07-04 17:08:03,459 - model.py[line:321] - INFO: Process: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+2018-07-04 17:08:03,459 - model.py[line:321] - INFO: State: precision:   6.96%; recall:   1.07%; FB1:   1.85  115
+2018-07-04 17:08:03,459 - model.py[line:321] - INFO: State: precision:   6.96%; recall:   1.07%; FB1:   1.85  115

@@ -1,0 +1,402 @@
+2018-06-06 20:38:38,010:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1521112368', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='train', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2018-06-06 20:38:43,218:INFO: 2018-06-06 20:38:40 epoch 1, step 1, loss: 68.15, global_step: 1
+2018-06-06 20:38:43,218:INFO: 2018-06-06 20:38:40 epoch 1, step 1, loss: 68.15, global_step: 1
+2018-06-06 20:38:52,282:INFO: 2018-06-06 20:38:40 epoch 1, step 5, loss: 40.64, global_step: 5
+2018-06-06 20:38:52,282:INFO: 2018-06-06 20:38:40 epoch 1, step 5, loss: 40.64, global_step: 5
+2018-06-06 20:38:52,838:INFO: ===========validation / test===========
+2018-06-06 20:38:52,838:INFO: ===========validation / test===========
+2018-06-06 20:38:56,087:INFO: 2018-06-06 20:38:53 epoch 2, step 1, loss: 53.91, global_step: 6
+2018-06-06 20:38:56,087:INFO: 2018-06-06 20:38:53 epoch 2, step 1, loss: 53.91, global_step: 6
+2018-06-06 20:39:05,042:INFO: 2018-06-06 20:38:53 epoch 2, step 5, loss: 27.13, global_step: 10
+2018-06-06 20:39:05,042:INFO: 2018-06-06 20:38:53 epoch 2, step 5, loss: 27.13, global_step: 10
+2018-06-06 20:39:05,646:INFO: ===========validation / test===========
+2018-06-06 20:39:05,646:INFO: ===========validation / test===========
+2018-06-06 20:39:08,211:INFO: 2018-06-06 20:39:05 epoch 3, step 1, loss: 35.08, global_step: 11
+2018-06-06 20:39:08,211:INFO: 2018-06-06 20:39:05 epoch 3, step 1, loss: 35.08, global_step: 11
+2018-06-06 20:39:18,310:INFO: 2018-06-06 20:39:05 epoch 3, step 5, loss: 33.22, global_step: 15
+2018-06-06 20:39:18,310:INFO: 2018-06-06 20:39:05 epoch 3, step 5, loss: 33.22, global_step: 15
+2018-06-06 20:39:18,851:INFO: ===========validation / test===========
+2018-06-06 20:39:18,851:INFO: ===========validation / test===========
+2018-06-06 20:39:21,680:INFO: 2018-06-06 20:39:19 epoch 4, step 1, loss: 30.72, global_step: 16
+2018-06-06 20:39:21,680:INFO: 2018-06-06 20:39:19 epoch 4, step 1, loss: 30.72, global_step: 16
+2018-06-06 20:39:31,043:INFO: 2018-06-06 20:39:19 epoch 4, step 5, loss: 27.36, global_step: 20
+2018-06-06 20:39:31,043:INFO: 2018-06-06 20:39:19 epoch 4, step 5, loss: 27.36, global_step: 20
+2018-06-06 20:39:31,550:INFO: ===========validation / test===========
+2018-06-06 20:39:31,550:INFO: ===========validation / test===========
+2018-06-06 20:39:34,427:INFO: 2018-06-06 20:39:31 epoch 5, step 1, loss: 31.3, global_step: 21
+2018-06-06 20:39:34,427:INFO: 2018-06-06 20:39:31 epoch 5, step 1, loss: 31.3, global_step: 21
+2018-06-06 20:39:46,320:INFO: 2018-06-06 20:39:31 epoch 5, step 5, loss: 30.31, global_step: 25
+2018-06-06 20:39:46,320:INFO: 2018-06-06 20:39:31 epoch 5, step 5, loss: 30.31, global_step: 25
+2018-06-06 20:39:46,838:INFO: ===========validation / test===========
+2018-06-06 20:39:46,838:INFO: ===========validation / test===========
+2018-06-06 20:39:49,004:INFO: 2018-06-06 20:39:47 epoch 6, step 1, loss: 28.65, global_step: 26
+2018-06-06 20:39:49,004:INFO: 2018-06-06 20:39:47 epoch 6, step 1, loss: 28.65, global_step: 26
+2018-06-06 20:39:58,843:INFO: 2018-06-06 20:39:47 epoch 6, step 5, loss: 27.68, global_step: 30
+2018-06-06 20:39:58,843:INFO: 2018-06-06 20:39:47 epoch 6, step 5, loss: 27.68, global_step: 30
+2018-06-06 20:39:59,392:INFO: ===========validation / test===========
+2018-06-06 20:39:59,392:INFO: ===========validation / test===========
+2018-06-06 20:40:02,641:INFO: 2018-06-06 20:39:59 epoch 7, step 1, loss: 27.48, global_step: 31
+2018-06-06 20:40:02,641:INFO: 2018-06-06 20:39:59 epoch 7, step 1, loss: 27.48, global_step: 31
+2018-06-06 20:40:12,191:INFO: 2018-06-06 20:39:59 epoch 7, step 5, loss: 30.16, global_step: 35
+2018-06-06 20:40:12,191:INFO: 2018-06-06 20:39:59 epoch 7, step 5, loss: 30.16, global_step: 35
+2018-06-06 20:40:12,782:INFO: ===========validation / test===========
+2018-06-06 20:40:12,782:INFO: ===========validation / test===========
+2018-06-06 20:40:16,151:INFO: 2018-06-06 20:40:12 epoch 8, step 1, loss: 28.99, global_step: 36
+2018-06-06 20:40:16,151:INFO: 2018-06-06 20:40:12 epoch 8, step 1, loss: 28.99, global_step: 36
+2018-06-06 20:40:24,952:INFO: 2018-06-06 20:40:12 epoch 8, step 5, loss: 19.95, global_step: 40
+2018-06-06 20:40:24,952:INFO: 2018-06-06 20:40:12 epoch 8, step 5, loss: 19.95, global_step: 40
+2018-06-06 20:40:25,546:INFO: ===========validation / test===========
+2018-06-06 20:40:25,546:INFO: ===========validation / test===========
+2018-06-06 20:40:28,619:INFO: 2018-06-06 20:40:25 epoch 9, step 1, loss: 25.1, global_step: 41
+2018-06-06 20:40:28,619:INFO: 2018-06-06 20:40:25 epoch 9, step 1, loss: 25.1, global_step: 41
+2018-06-06 20:40:38,028:INFO: 2018-06-06 20:40:25 epoch 9, step 5, loss: 19.84, global_step: 45
+2018-06-06 20:40:38,028:INFO: 2018-06-06 20:40:25 epoch 9, step 5, loss: 19.84, global_step: 45
+2018-06-06 20:40:38,627:INFO: ===========validation / test===========
+2018-06-06 20:40:38,627:INFO: ===========validation / test===========
+2018-06-06 20:40:41,964:INFO: 2018-06-06 20:40:38 epoch 10, step 1, loss: 23.24, global_step: 46
+2018-06-06 20:40:41,964:INFO: 2018-06-06 20:40:38 epoch 10, step 1, loss: 23.24, global_step: 46
+2018-06-06 20:40:52,077:INFO: 2018-06-06 20:40:38 epoch 10, step 5, loss: 26.57, global_step: 50
+2018-06-06 20:40:52,077:INFO: 2018-06-06 20:40:38 epoch 10, step 5, loss: 26.57, global_step: 50
+2018-06-06 20:40:52,665:INFO: ===========validation / test===========
+2018-06-06 20:40:52,665:INFO: ===========validation / test===========
+2018-06-06 20:40:55,332:INFO: 2018-06-06 20:40:52 epoch 11, step 1, loss: 24.31, global_step: 51
+2018-06-06 20:40:55,332:INFO: 2018-06-06 20:40:52 epoch 11, step 1, loss: 24.31, global_step: 51
+2018-06-06 20:41:05,719:INFO: 2018-06-06 20:40:52 epoch 11, step 5, loss: 14.98, global_step: 55
+2018-06-06 20:41:05,719:INFO: 2018-06-06 20:40:52 epoch 11, step 5, loss: 14.98, global_step: 55
+2018-06-06 20:41:06,407:INFO: ===========validation / test===========
+2018-06-06 20:41:06,407:INFO: ===========validation / test===========
+2018-06-06 20:41:09,269:INFO: 2018-06-06 20:41:06 epoch 12, step 1, loss: 18.25, global_step: 56
+2018-06-06 20:41:09,269:INFO: 2018-06-06 20:41:06 epoch 12, step 1, loss: 18.25, global_step: 56
+2018-06-06 20:41:18,840:INFO: 2018-06-06 20:41:06 epoch 12, step 5, loss: 19.23, global_step: 60
+2018-06-06 20:41:18,840:INFO: 2018-06-06 20:41:06 epoch 12, step 5, loss: 19.23, global_step: 60
+2018-06-06 20:41:19,419:INFO: ===========validation / test===========
+2018-06-06 20:41:19,419:INFO: ===========validation / test===========
+2018-06-06 20:41:22,133:INFO: 2018-06-06 20:41:19 epoch 13, step 1, loss: 17.87, global_step: 61
+2018-06-06 20:41:22,133:INFO: 2018-06-06 20:41:19 epoch 13, step 1, loss: 17.87, global_step: 61
+2018-06-06 20:41:32,034:INFO: 2018-06-06 20:41:19 epoch 13, step 5, loss: 19.07, global_step: 65
+2018-06-06 20:41:32,034:INFO: 2018-06-06 20:41:19 epoch 13, step 5, loss: 19.07, global_step: 65
+2018-06-06 20:41:32,592:INFO: ===========validation / test===========
+2018-06-06 20:41:32,592:INFO: ===========validation / test===========
+2018-06-06 20:41:35,214:INFO: 2018-06-06 20:41:32 epoch 14, step 1, loss: 17.11, global_step: 66
+2018-06-06 20:41:35,214:INFO: 2018-06-06 20:41:32 epoch 14, step 1, loss: 17.11, global_step: 66
+2018-06-06 20:41:43,783:INFO: 2018-06-06 20:41:32 epoch 14, step 5, loss: 17.81, global_step: 70
+2018-06-06 20:41:43,783:INFO: 2018-06-06 20:41:32 epoch 14, step 5, loss: 17.81, global_step: 70
+2018-06-06 20:41:44,436:INFO: ===========validation / test===========
+2018-06-06 20:41:44,436:INFO: ===========validation / test===========
+2018-06-06 20:41:47,066:INFO: 2018-06-06 20:41:44 epoch 15, step 1, loss: 16.07, global_step: 71
+2018-06-06 20:41:47,066:INFO: 2018-06-06 20:41:44 epoch 15, step 1, loss: 16.07, global_step: 71
+2018-06-06 20:41:56,783:INFO: 2018-06-06 20:41:44 epoch 15, step 5, loss: 17.64, global_step: 75
+2018-06-06 20:41:56,783:INFO: 2018-06-06 20:41:44 epoch 15, step 5, loss: 17.64, global_step: 75
+2018-06-06 20:41:57,335:INFO: ===========validation / test===========
+2018-06-06 20:41:57,335:INFO: ===========validation / test===========
+2018-06-06 20:42:00,123:INFO: 2018-06-06 20:41:57 epoch 16, step 1, loss: 13.65, global_step: 76
+2018-06-06 20:42:00,123:INFO: 2018-06-06 20:41:57 epoch 16, step 1, loss: 13.65, global_step: 76
+2018-06-06 20:42:10,123:INFO: 2018-06-06 20:41:57 epoch 16, step 5, loss: 16.32, global_step: 80
+2018-06-06 20:42:10,123:INFO: 2018-06-06 20:41:57 epoch 16, step 5, loss: 16.32, global_step: 80
+2018-06-06 20:42:10,645:INFO: ===========validation / test===========
+2018-06-06 20:42:10,645:INFO: ===========validation / test===========
+2018-06-06 20:42:13,716:INFO: 2018-06-06 20:42:10 epoch 17, step 1, loss: 16.06, global_step: 81
+2018-06-06 20:42:13,716:INFO: 2018-06-06 20:42:10 epoch 17, step 1, loss: 16.06, global_step: 81
+2018-06-06 20:42:22,472:INFO: 2018-06-06 20:42:10 epoch 17, step 5, loss: 13.36, global_step: 85
+2018-06-06 20:42:22,472:INFO: 2018-06-06 20:42:10 epoch 17, step 5, loss: 13.36, global_step: 85
+2018-06-06 20:42:23,010:INFO: ===========validation / test===========
+2018-06-06 20:42:23,010:INFO: ===========validation / test===========
+2018-06-06 20:42:26,090:INFO: 2018-06-06 20:42:23 epoch 18, step 1, loss: 16.24, global_step: 86
+2018-06-06 20:42:26,090:INFO: 2018-06-06 20:42:23 epoch 18, step 1, loss: 16.24, global_step: 86
+2018-06-06 20:42:36,369:INFO: 2018-06-06 20:42:23 epoch 18, step 5, loss: 15.79, global_step: 90
+2018-06-06 20:42:36,369:INFO: 2018-06-06 20:42:23 epoch 18, step 5, loss: 15.79, global_step: 90
+2018-06-06 20:42:36,933:INFO: ===========validation / test===========
+2018-06-06 20:42:36,933:INFO: ===========validation / test===========
+2018-06-06 20:42:39,324:INFO: 2018-06-06 20:42:37 epoch 19, step 1, loss: 13.03, global_step: 91
+2018-06-06 20:42:39,324:INFO: 2018-06-06 20:42:37 epoch 19, step 1, loss: 13.03, global_step: 91
+2018-06-06 20:42:49,663:INFO: 2018-06-06 20:42:37 epoch 19, step 5, loss: 15.29, global_step: 95
+2018-06-06 20:42:49,663:INFO: 2018-06-06 20:42:37 epoch 19, step 5, loss: 15.29, global_step: 95
+2018-06-06 20:42:50,277:INFO: ===========validation / test===========
+2018-06-06 20:42:50,277:INFO: ===========validation / test===========
+2018-06-06 20:42:53,520:INFO: 2018-06-06 20:42:50 epoch 20, step 1, loss: 12.22, global_step: 96
+2018-06-06 20:42:53,520:INFO: 2018-06-06 20:42:50 epoch 20, step 1, loss: 12.22, global_step: 96
+2018-06-06 20:43:03,266:INFO: 2018-06-06 20:42:50 epoch 20, step 5, loss: 13.89, global_step: 100
+2018-06-06 20:43:03,266:INFO: 2018-06-06 20:42:50 epoch 20, step 5, loss: 13.89, global_step: 100
+2018-06-06 20:43:03,910:INFO: ===========validation / test===========
+2018-06-06 20:43:03,910:INFO: ===========validation / test===========
+2018-06-06 20:43:06,195:INFO: 2018-06-06 20:43:04 epoch 21, step 1, loss: 13.77, global_step: 101
+2018-06-06 20:43:06,195:INFO: 2018-06-06 20:43:04 epoch 21, step 1, loss: 13.77, global_step: 101
+2018-06-06 20:43:16,985:INFO: 2018-06-06 20:43:04 epoch 21, step 5, loss: 9.61, global_step: 105
+2018-06-06 20:43:16,985:INFO: 2018-06-06 20:43:04 epoch 21, step 5, loss: 9.61, global_step: 105
+2018-06-06 20:43:17,539:INFO: ===========validation / test===========
+2018-06-06 20:43:17,539:INFO: ===========validation / test===========
+2018-06-06 20:43:20,307:INFO: 2018-06-06 20:43:17 epoch 22, step 1, loss: 12.42, global_step: 106
+2018-06-06 20:43:20,307:INFO: 2018-06-06 20:43:17 epoch 22, step 1, loss: 12.42, global_step: 106
+2018-06-06 20:43:31,538:INFO: 2018-06-06 20:43:17 epoch 22, step 5, loss: 13.17, global_step: 110
+2018-06-06 20:43:31,538:INFO: 2018-06-06 20:43:17 epoch 22, step 5, loss: 13.17, global_step: 110
+2018-06-06 20:43:32,116:INFO: ===========validation / test===========
+2018-06-06 20:43:32,116:INFO: ===========validation / test===========
+2018-06-06 20:43:34,768:INFO: 2018-06-06 20:43:32 epoch 23, step 1, loss: 10.57, global_step: 111
+2018-06-06 20:43:34,768:INFO: 2018-06-06 20:43:32 epoch 23, step 1, loss: 10.57, global_step: 111
+2018-06-06 20:43:44,756:INFO: 2018-06-06 20:43:32 epoch 23, step 5, loss: 9.287, global_step: 115
+2018-06-06 20:43:44,756:INFO: 2018-06-06 20:43:32 epoch 23, step 5, loss: 9.287, global_step: 115
+2018-06-06 20:43:45,334:INFO: ===========validation / test===========
+2018-06-06 20:43:45,334:INFO: ===========validation / test===========
+2018-06-06 20:43:48,096:INFO: 2018-06-06 20:43:45 epoch 24, step 1, loss: 10.99, global_step: 116
+2018-06-06 20:43:48,096:INFO: 2018-06-06 20:43:45 epoch 24, step 1, loss: 10.99, global_step: 116
+2018-06-06 20:43:57,419:INFO: 2018-06-06 20:43:45 epoch 24, step 5, loss: 12.46, global_step: 120
+2018-06-06 20:43:57,419:INFO: 2018-06-06 20:43:45 epoch 24, step 5, loss: 12.46, global_step: 120
+2018-06-06 20:43:57,923:INFO: ===========validation / test===========
+2018-06-06 20:43:57,923:INFO: ===========validation / test===========
+2018-06-06 20:44:00,653:INFO: 2018-06-06 20:43:58 epoch 25, step 1, loss: 11.26, global_step: 121
+2018-06-06 20:44:00,653:INFO: 2018-06-06 20:43:58 epoch 25, step 1, loss: 11.26, global_step: 121
+2018-06-06 20:44:11,117:INFO: 2018-06-06 20:43:58 epoch 25, step 5, loss: 9.889, global_step: 125
+2018-06-06 20:44:11,117:INFO: 2018-06-06 20:43:58 epoch 25, step 5, loss: 9.889, global_step: 125
+2018-06-06 20:44:11,702:INFO: ===========validation / test===========
+2018-06-06 20:44:11,702:INFO: ===========validation / test===========
+2018-06-06 20:44:14,406:INFO: 2018-06-06 20:44:11 epoch 26, step 1, loss: 9.233, global_step: 126
+2018-06-06 20:44:14,406:INFO: 2018-06-06 20:44:11 epoch 26, step 1, loss: 9.233, global_step: 126
+2018-06-06 20:44:24,810:INFO: 2018-06-06 20:44:11 epoch 26, step 5, loss: 8.092, global_step: 130
+2018-06-06 20:44:24,810:INFO: 2018-06-06 20:44:11 epoch 26, step 5, loss: 8.092, global_step: 130
+2018-06-06 20:44:25,387:INFO: ===========validation / test===========
+2018-06-06 20:44:25,387:INFO: ===========validation / test===========
+2018-06-06 20:44:28,507:INFO: 2018-06-06 20:44:25 epoch 27, step 1, loss: 9.655, global_step: 131
+2018-06-06 20:44:28,507:INFO: 2018-06-06 20:44:25 epoch 27, step 1, loss: 9.655, global_step: 131
+2018-06-06 20:44:37,630:INFO: 2018-06-06 20:44:25 epoch 27, step 5, loss: 8.594, global_step: 135
+2018-06-06 20:44:37,630:INFO: 2018-06-06 20:44:25 epoch 27, step 5, loss: 8.594, global_step: 135
+2018-06-06 20:44:38,274:INFO: ===========validation / test===========
+2018-06-06 20:44:38,274:INFO: ===========validation / test===========
+2018-06-06 20:44:41,392:INFO: 2018-06-06 20:44:38 epoch 28, step 1, loss: 10.9, global_step: 136
+2018-06-06 20:44:41,392:INFO: 2018-06-06 20:44:38 epoch 28, step 1, loss: 10.9, global_step: 136
+2018-06-06 20:44:50,044:INFO: 2018-06-06 20:44:38 epoch 28, step 5, loss: 6.525, global_step: 140
+2018-06-06 20:44:50,044:INFO: 2018-06-06 20:44:38 epoch 28, step 5, loss: 6.525, global_step: 140
+2018-06-06 20:44:50,612:INFO: ===========validation / test===========
+2018-06-06 20:44:50,612:INFO: ===========validation / test===========
+2018-06-06 20:44:53,714:INFO: 2018-06-06 20:44:50 epoch 29, step 1, loss: 9.535, global_step: 141
+2018-06-06 20:44:53,714:INFO: 2018-06-06 20:44:50 epoch 29, step 1, loss: 9.535, global_step: 141
+2018-06-06 20:45:02,289:INFO: 2018-06-06 20:44:50 epoch 29, step 5, loss: 8.658, global_step: 145
+2018-06-06 20:45:02,289:INFO: 2018-06-06 20:44:50 epoch 29, step 5, loss: 8.658, global_step: 145
+2018-06-06 20:45:02,822:INFO: ===========validation / test===========
+2018-06-06 20:45:02,822:INFO: ===========validation / test===========
+2018-06-06 20:45:05,956:INFO: 2018-06-06 20:45:02 epoch 30, step 1, loss: 8.154, global_step: 146
+2018-06-06 20:45:05,956:INFO: 2018-06-06 20:45:02 epoch 30, step 1, loss: 8.154, global_step: 146
+2018-06-06 20:45:15,379:INFO: 2018-06-06 20:45:02 epoch 30, step 5, loss: 8.976, global_step: 150
+2018-06-06 20:45:15,379:INFO: 2018-06-06 20:45:02 epoch 30, step 5, loss: 8.976, global_step: 150
+2018-06-06 20:45:15,931:INFO: ===========validation / test===========
+2018-06-06 20:45:15,931:INFO: ===========validation / test===========
+2018-06-06 20:45:18,281:INFO: 2018-06-06 20:45:16 epoch 31, step 1, loss: 6.487, global_step: 151
+2018-06-06 20:45:18,281:INFO: 2018-06-06 20:45:16 epoch 31, step 1, loss: 6.487, global_step: 151
+2018-06-06 20:45:28,464:INFO: 2018-06-06 20:45:16 epoch 31, step 5, loss: 9.717, global_step: 155
+2018-06-06 20:45:28,464:INFO: 2018-06-06 20:45:16 epoch 31, step 5, loss: 9.717, global_step: 155
+2018-06-06 20:45:29,000:INFO: ===========validation / test===========
+2018-06-06 20:45:29,000:INFO: ===========validation / test===========
+2018-06-06 20:45:32,222:INFO: 2018-06-06 20:45:29 epoch 32, step 1, loss: 7.896, global_step: 156
+2018-06-06 20:45:32,222:INFO: 2018-06-06 20:45:29 epoch 32, step 1, loss: 7.896, global_step: 156
+2018-06-06 20:45:41,624:INFO: 2018-06-06 20:45:29 epoch 32, step 5, loss: 6.418, global_step: 160
+2018-06-06 20:45:41,624:INFO: 2018-06-06 20:45:29 epoch 32, step 5, loss: 6.418, global_step: 160
+2018-06-06 20:45:42,233:INFO: ===========validation / test===========
+2018-06-06 20:45:42,233:INFO: ===========validation / test===========
+2018-06-06 20:45:44,276:INFO: 2018-06-06 20:45:42 epoch 33, step 1, loss: 6.824, global_step: 161
+2018-06-06 20:45:44,276:INFO: 2018-06-06 20:45:42 epoch 33, step 1, loss: 6.824, global_step: 161
+2018-06-06 20:45:55,268:INFO: 2018-06-06 20:45:42 epoch 33, step 5, loss: 7.395, global_step: 165
+2018-06-06 20:45:55,268:INFO: 2018-06-06 20:45:42 epoch 33, step 5, loss: 7.395, global_step: 165
+2018-06-06 20:45:55,819:INFO: ===========validation / test===========
+2018-06-06 20:45:55,819:INFO: ===========validation / test===========
+2018-06-06 20:45:58,923:INFO: 2018-06-06 20:45:56 epoch 34, step 1, loss: 5.806, global_step: 166
+2018-06-06 20:45:58,923:INFO: 2018-06-06 20:45:56 epoch 34, step 1, loss: 5.806, global_step: 166
+2018-06-06 20:46:08,356:INFO: 2018-06-06 20:45:56 epoch 34, step 5, loss: 8.706, global_step: 170
+2018-06-06 20:46:08,356:INFO: 2018-06-06 20:45:56 epoch 34, step 5, loss: 8.706, global_step: 170
+2018-06-06 20:46:08,926:INFO: ===========validation / test===========
+2018-06-06 20:46:08,926:INFO: ===========validation / test===========
+2018-06-06 20:46:11,163:INFO: 2018-06-06 20:46:09 epoch 35, step 1, loss: 5.951, global_step: 171
+2018-06-06 20:46:11,163:INFO: 2018-06-06 20:46:09 epoch 35, step 1, loss: 5.951, global_step: 171
+2018-06-06 20:46:20,986:INFO: 2018-06-06 20:46:09 epoch 35, step 5, loss: 7.327, global_step: 175
+2018-06-06 20:46:20,986:INFO: 2018-06-06 20:46:09 epoch 35, step 5, loss: 7.327, global_step: 175
+2018-06-06 20:46:21,584:INFO: ===========validation / test===========
+2018-06-06 20:46:21,584:INFO: ===========validation / test===========
+2018-06-06 20:46:24,313:INFO: 2018-06-06 20:46:21 epoch 36, step 1, loss: 6.564, global_step: 176
+2018-06-06 20:46:24,313:INFO: 2018-06-06 20:46:21 epoch 36, step 1, loss: 6.564, global_step: 176
+2018-06-06 20:46:34,446:INFO: 2018-06-06 20:46:21 epoch 36, step 5, loss: 6.653, global_step: 180
+2018-06-06 20:46:34,446:INFO: 2018-06-06 20:46:21 epoch 36, step 5, loss: 6.653, global_step: 180
+2018-06-06 20:46:35,024:INFO: ===========validation / test===========
+2018-06-06 20:46:35,024:INFO: ===========validation / test===========
+2018-06-06 20:46:37,788:INFO: 2018-06-06 20:46:35 epoch 37, step 1, loss: 6.03, global_step: 181
+2018-06-06 20:46:37,788:INFO: 2018-06-06 20:46:35 epoch 37, step 1, loss: 6.03, global_step: 181
+2018-06-06 20:46:47,740:INFO: 2018-06-06 20:46:35 epoch 37, step 5, loss: 6.861, global_step: 185
+2018-06-06 20:46:47,740:INFO: 2018-06-06 20:46:35 epoch 37, step 5, loss: 6.861, global_step: 185
+2018-06-06 20:46:48,586:INFO: ===========validation / test===========
+2018-06-06 20:46:48,586:INFO: ===========validation / test===========
+2018-06-06 20:46:51,289:INFO: 2018-06-06 20:46:48 epoch 38, step 1, loss: 7.177, global_step: 186
+2018-06-06 20:46:51,289:INFO: 2018-06-06 20:46:48 epoch 38, step 1, loss: 7.177, global_step: 186
+2018-06-06 20:47:01,334:INFO: 2018-06-06 20:46:48 epoch 38, step 5, loss: 4.102, global_step: 190
+2018-06-06 20:47:01,334:INFO: 2018-06-06 20:46:48 epoch 38, step 5, loss: 4.102, global_step: 190
+2018-06-06 20:47:01,875:INFO: ===========validation / test===========
+2018-06-06 20:47:01,875:INFO: ===========validation / test===========
+2018-06-06 20:47:04,645:INFO: 2018-06-06 20:47:02 epoch 39, step 1, loss: 5.259, global_step: 191
+2018-06-06 20:47:04,645:INFO: 2018-06-06 20:47:02 epoch 39, step 1, loss: 5.259, global_step: 191
+2018-06-06 20:47:13,483:INFO: 2018-06-06 20:47:02 epoch 39, step 5, loss: 4.114, global_step: 195
+2018-06-06 20:47:13,483:INFO: 2018-06-06 20:47:02 epoch 39, step 5, loss: 4.114, global_step: 195
+2018-06-06 20:47:14,089:INFO: ===========validation / test===========
+2018-06-06 20:47:14,089:INFO: ===========validation / test===========
+2018-06-06 20:47:16,178:INFO: 2018-06-06 20:47:14 epoch 40, step 1, loss: 4.018, global_step: 196
+2018-06-06 20:47:16,178:INFO: 2018-06-06 20:47:14 epoch 40, step 1, loss: 4.018, global_step: 196
+2018-06-06 20:47:26,497:INFO: 2018-06-06 20:47:14 epoch 40, step 5, loss: 5.199, global_step: 200
+2018-06-06 20:47:26,497:INFO: 2018-06-06 20:47:14 epoch 40, step 5, loss: 5.199, global_step: 200
+2018-06-06 20:47:27,023:INFO: ===========validation / test===========
+2018-06-06 20:47:27,023:INFO: ===========validation / test===========
+2018-06-06 20:52:22,203:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1528288718', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='demo', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2018-06-06 20:52:23,687:INFO: Restoring parameters from .\data_path_save\1528288718\checkpoints/model-200
+2018-06-06 20:52:23,687:INFO: Restoring parameters from .\data_path_save\1528288718\checkpoints/model-200
+2018-06-06 20:54:34,759:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1528288718', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='demo', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2018-06-06 20:54:36,280:INFO: Restoring parameters from .\data_path_save\1528288718\checkpoints/model-200
+2018-06-06 20:54:36,280:INFO: Restoring parameters from .\data_path_save\1528288718\checkpoints/model-200
+2018-06-06 20:59:21,533:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1528288718', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='demo', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2018-06-06 20:59:23,078:INFO: Restoring parameters from .\data_path_save\1528288718\checkpoints/model-200
+2018-06-06 20:59:23,078:INFO: Restoring parameters from .\data_path_save\1528288718\checkpoints/model-200
+2018-06-06 21:13:33,175:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1528288718', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='demo', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2018-06-06 21:13:34,764:INFO: Restoring parameters from .\data_path_save\1528288718\checkpoints/model-200
+2018-06-06 21:13:34,764:INFO: Restoring parameters from .\data_path_save\1528288718\checkpoints/model-200
+2018-06-06 22:12:51,374:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1528288718', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='demo', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2018-06-06 22:12:52,932:INFO: Restoring parameters from .\data_path_save\1528288718\checkpoints/model-200
+2018-06-06 22:12:52,932:INFO: Restoring parameters from .\data_path_save\1528288718\checkpoints/model-200
+2018-06-06 22:16:06,109:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1528288718', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='demo', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2018-06-06 22:16:07,786:INFO: Restoring parameters from .\data_path_save\1528288718\checkpoints/model-200
+2018-06-06 22:16:07,786:INFO: Restoring parameters from .\data_path_save\1528288718\checkpoints/model-200
+2018-06-07 09:38:51,782:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1528288718', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='demo', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2018-06-07 09:38:53,469:INFO: Restoring parameters from .\data_path_save\1528288718\checkpoints/model-200
+2018-06-07 09:38:53,469:INFO: Restoring parameters from .\data_path_save\1528288718\checkpoints/model-200
+2018-06-07 09:40:50,789:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1528288718', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='demo', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2018-06-07 09:40:52,737:INFO: Restoring parameters from .\data_path_save\1528288718\checkpoints/model-200
+2018-06-07 09:40:52,737:INFO: Restoring parameters from .\data_path_save\1528288718\checkpoints/model-200
+2018-06-07 09:41:47,492:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1528288718', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='demo', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2018-06-07 09:41:49,160:INFO: Restoring parameters from .\data_path_save\1528288718\checkpoints/model-200
+2018-06-07 09:41:49,160:INFO: Restoring parameters from .\data_path_save\1528288718\checkpoints/model-200
+2018-06-07 10:51:45,939:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1528288718', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='demo', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2018-06-07 10:51:47,638:INFO: Restoring parameters from .\data_path_save\1528288718\checkpoints/model-200
+2018-06-07 10:51:47,638:INFO: Restoring parameters from .\data_path_save\1528288718\checkpoints/model-200
+2018-06-08 11:49:38,069:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1528288718', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='demo', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2018-06-08 11:49:39,831:INFO: Restoring parameters from .\data_path_save\1528288718\checkpoints/model-200
+2018-06-08 11:49:39,831:INFO: Restoring parameters from .\data_path_save\1528288718\checkpoints/model-200
+2018-06-08 14:14:17,271:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1528288718', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='demo', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2018-06-08 14:14:19,059:INFO: Restoring parameters from .\data_path_save\1528288718\checkpoints/model-200
+2018-06-08 14:14:19,059:INFO: Restoring parameters from .\data_path_save\1528288718\checkpoints/model-200
+2018-06-08 14:23:47,171:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1528288718', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='demo', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2018-06-08 14:23:48,831:INFO: Restoring parameters from .\data_path_save\1528288718\checkpoints/model-200
+2018-06-08 14:23:48,831:INFO: Restoring parameters from .\data_path_save\1528288718\checkpoints/model-200
+2018-06-08 14:46:57,545:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1528288718', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='demo', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2018-06-08 14:46:59,231:INFO: Restoring parameters from .\data_path_save\1528288718\checkpoints/model-200
+2018-06-08 14:46:59,231:INFO: Restoring parameters from .\data_path_save\1528288718\checkpoints/model-200
+2018-06-08 14:59:02,277:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1528288718', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='demo', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2018-06-08 14:59:03,831:INFO: Restoring parameters from .\data_path_save\1528288718\checkpoints/model-200
+2018-06-08 14:59:03,831:INFO: Restoring parameters from .\data_path_save\1528288718\checkpoints/model-200
+2018-06-08 15:17:39,252:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1528288718', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='demo', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2018-06-08 15:17:40,835:INFO: Restoring parameters from .\data_path_save\1528288718\checkpoints/model-200
+2018-06-08 15:17:40,835:INFO: Restoring parameters from .\data_path_save\1528288718\checkpoints/model-200
+2018-06-08 15:30:07,005:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1528288718', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='demo', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2018-06-08 15:30:08,951:INFO: Restoring parameters from .\data_path_save\1528288718\checkpoints/model-200
+2018-06-08 15:30:08,951:INFO: Restoring parameters from .\data_path_save\1528288718\checkpoints/model-200
+2018-06-11 11:12:48,216:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1528288718', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='test', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2018-06-11 11:12:49,897:INFO: =========== testing ===========
+2018-06-11 11:12:49,897:INFO: =========== testing ===========
+2018-06-11 11:12:49,897:INFO: Restoring parameters from .\data_path_save\1528288718\checkpoints/model-200
+2018-06-11 11:12:49,897:INFO: Restoring parameters from .\data_path_save\1528288718\checkpoints/model-200
+2018-06-11 11:18:59,308:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1528288718', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='test', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2018-06-11 11:19:01,130:INFO: =========== testing ===========
+2018-06-11 11:19:01,130:INFO: =========== testing ===========
+2018-06-11 11:19:01,130:INFO: Restoring parameters from .\data_path_save\1528288718\checkpoints/model-200
+2018-06-11 11:19:01,130:INFO: Restoring parameters from .\data_path_save\1528288718\checkpoints/model-200
+2018-06-11 11:20:03,232:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1528288718', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='test', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2018-06-11 11:20:04,736:INFO: =========== testing ===========
+2018-06-11 11:20:04,736:INFO: =========== testing ===========
+2018-06-11 11:20:04,736:INFO: Restoring parameters from .\data_path_save\1528288718\checkpoints/model-200
+2018-06-11 11:20:04,736:INFO: Restoring parameters from .\data_path_save\1528288718\checkpoints/model-200
+2018-06-11 11:20:53,381:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1528288718', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='test', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2018-06-11 11:20:54,854:INFO: =========== testing ===========
+2018-06-11 11:20:54,854:INFO: =========== testing ===========
+2018-06-11 11:20:54,855:INFO: Restoring parameters from .\data_path_save\1528288718\checkpoints/model-200
+2018-06-11 11:20:54,855:INFO: Restoring parameters from .\data_path_save\1528288718\checkpoints/model-200
+2018-06-11 11:21:17,275:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1528288718', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='test', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2018-06-11 11:21:19,042:INFO: =========== testing ===========
+2018-06-11 11:21:19,042:INFO: =========== testing ===========
+2018-06-11 11:21:19,042:INFO: Restoring parameters from .\data_path_save\1528288718\checkpoints/model-200
+2018-06-11 11:21:19,042:INFO: Restoring parameters from .\data_path_save\1528288718\checkpoints/model-200
+2018-06-11 11:24:54,776:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1528288718', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='test', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2018-06-11 11:24:56,938:INFO: =========== testing ===========
+2018-06-11 11:24:56,938:INFO: =========== testing ===========
+2018-06-11 11:24:56,939:INFO: Restoring parameters from .\data_path_save\1528288718\checkpoints/model-200
+2018-06-11 11:24:56,939:INFO: Restoring parameters from .\data_path_save\1528288718\checkpoints/model-200
+2018-06-11 11:31:28,120:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1528288718', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='test', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2018-06-11 11:31:29,915:INFO: =========== testing ===========
+2018-06-11 11:31:29,915:INFO: =========== testing ===========
+2018-06-11 11:31:29,915:INFO: Restoring parameters from .\data_path_save\1528288718\checkpoints/model-200
+2018-06-11 11:31:29,915:INFO: Restoring parameters from .\data_path_save\1528288718\checkpoints/model-200
+2018-06-11 11:32:26,662:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1528288718', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='test', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2018-06-11 11:32:28,154:INFO: =========== testing ===========
+2018-06-11 11:32:28,154:INFO: =========== testing ===========
+2018-06-11 11:32:28,154:INFO: Restoring parameters from .\data_path_save\1528288718\checkpoints/model-200
+2018-06-11 11:32:28,154:INFO: Restoring parameters from .\data_path_save\1528288718\checkpoints/model-200
+2018-06-11 11:34:20,615:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1528288718', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='test', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2018-06-11 11:34:22,369:INFO: =========== testing ===========
+2018-06-11 11:34:22,369:INFO: =========== testing ===========
+2018-06-11 11:34:22,369:INFO: Restoring parameters from .\data_path_save\1528288718\checkpoints/model-200
+2018-06-11 11:34:22,369:INFO: Restoring parameters from .\data_path_save\1528288718\checkpoints/model-200
+2018-06-11 11:38:12,706:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1528288718', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='test', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2018-06-11 11:38:14,575:INFO: =========== testing ===========
+2018-06-11 11:38:14,575:INFO: =========== testing ===========
+2018-06-11 11:38:14,575:INFO: Restoring parameters from .\data_path_save\1528288718\checkpoints/model-200
+2018-06-11 11:38:14,575:INFO: Restoring parameters from .\data_path_save\1528288718\checkpoints/model-200
+2018-06-11 11:38:53,994:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1528288718', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='test', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2018-06-11 11:38:55,973:INFO: =========== testing ===========
+2018-06-11 11:38:55,973:INFO: =========== testing ===========
+2018-06-11 11:38:55,973:INFO: Restoring parameters from .\data_path_save\1528288718\checkpoints/model-200
+2018-06-11 11:38:55,973:INFO: Restoring parameters from .\data_path_save\1528288718\checkpoints/model-200
+2018-06-11 11:41:27,162:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1528288718', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='test', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2018-06-11 11:41:29,225:INFO: =========== testing ===========
+2018-06-11 11:41:29,225:INFO: =========== testing ===========
+2018-06-11 11:41:29,225:INFO: Restoring parameters from .\data_path_save\1528288718\checkpoints/model-200
+2018-06-11 11:41:29,225:INFO: Restoring parameters from .\data_path_save\1528288718\checkpoints/model-200
+2018-06-11 11:44:27,658:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1528288718', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='test', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2018-06-11 11:44:29,298:INFO: =========== testing ===========
+2018-06-11 11:44:29,298:INFO: =========== testing ===========
+2018-06-11 11:44:29,299:INFO: Restoring parameters from .\data_path_save\1528288718\checkpoints/model-200
+2018-06-11 11:44:29,299:INFO: Restoring parameters from .\data_path_save\1528288718\checkpoints/model-200
+2018-06-11 11:48:11,001:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1528288718', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='test', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2018-06-11 11:48:13,053:INFO: =========== testing ===========
+2018-06-11 11:48:13,053:INFO: =========== testing ===========
+2018-06-11 11:48:13,054:INFO: Restoring parameters from .\data_path_save\1528288718\checkpoints/model-200
+2018-06-11 11:48:13,054:INFO: Restoring parameters from .\data_path_save\1528288718\checkpoints/model-200
+2018-06-11 11:51:14,329:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1528288718', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='test', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2018-06-11 11:51:16,151:INFO: =========== testing ===========
+2018-06-11 11:51:16,151:INFO: =========== testing ===========
+2018-06-11 11:51:16,151:INFO: Restoring parameters from .\data_path_save\1528288718\checkpoints/model-200
+2018-06-11 11:51:16,151:INFO: Restoring parameters from .\data_path_save\1528288718\checkpoints/model-200
+2018-06-11 11:52:20,145:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1528288718', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='test', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2018-06-11 11:52:21,645:INFO: =========== testing ===========
+2018-06-11 11:52:21,645:INFO: =========== testing ===========
+2018-06-11 11:52:21,645:INFO: Restoring parameters from .\data_path_save\1528288718\checkpoints/model-200
+2018-06-11 11:52:21,645:INFO: Restoring parameters from .\data_path_save\1528288718\checkpoints/model-200
+"2018-06-11 11:57:02,568 - main.py[line:77] - INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1528288718', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='test', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)"
+"2018-06-11 11:57:04,610 - model.py[line:170] - INFO: =========== testing ==========="
+"2018-06-11 11:57:04,610 - model.py[line:170] - INFO: =========== testing ==========="
+"2018-06-11 11:57:04,611 - tf_logging.py[line:116] - INFO: Restoring parameters from .\data_path_save\1528288718\checkpoints/model-200"
+"2018-06-11 11:57:04,611 - tf_logging.py[line:116] - INFO: Restoring parameters from .\data_path_save\1528288718\checkpoints/model-200"
+"2018-06-11 11:59:35,871 - main.py[line:77] - INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1528288718', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='test', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)"
+"2018-06-11 11:59:37,496 - model.py[line:170] - INFO: =========== testing ==========="
+"2018-06-11 11:59:37,496 - model.py[line:170] - INFO: =========== testing ==========="
+"2018-06-11 11:59:37,496 - tf_logging.py[line:116] - INFO: Restoring parameters from .\data_path_save\1528288718\checkpoints/model-200"
+"2018-06-11 11:59:37,496 - tf_logging.py[line:116] - INFO: Restoring parameters from .\data_path_save\1528288718\checkpoints/model-200"
+"2018-06-11 12:00:29,859 - main.py[line:77] - INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1528288718', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='test', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)"
+"2018-06-11 12:00:31,570 - model.py[line:170] - INFO: =========== testing ==========="
+"2018-06-11 12:00:31,570 - model.py[line:170] - INFO: =========== testing ==========="
+"2018-06-11 12:00:31,570 - tf_logging.py[line:116] - INFO: Restoring parameters from .\data_path_save\1528288718\checkpoints/model-200"
+"2018-06-11 12:00:31,570 - tf_logging.py[line:116] - INFO: Restoring parameters from .\data_path_save\1528288718\checkpoints/model-200"
+"2018-06-11 14:10:30,018 - main.py[line:77] - INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1528288718', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='test', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)"
+"2018-06-11 14:10:32,283 - model.py[line:170] - INFO: =========== testing ==========="
+"2018-06-11 14:10:32,283 - model.py[line:170] - INFO: =========== testing ==========="
+"2018-06-11 14:10:32,283 - tf_logging.py[line:116] - INFO: Restoring parameters from .\data_path_save\1528288718\checkpoints/model-200"
+"2018-06-11 14:10:32,283 - tf_logging.py[line:116] - INFO: Restoring parameters from .\data_path_save\1528288718\checkpoints/model-200"
+"2018-06-11 14:20:41,454 - main.py[line:77] - INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1528288718', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='test', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)"
+"2018-06-11 14:20:43,315 - model.py[line:170] - INFO: =========== testing ==========="
+"2018-06-11 14:20:43,315 - model.py[line:170] - INFO: =========== testing ==========="
+"2018-06-11 14:20:43,315 - tf_logging.py[line:116] - INFO: Restoring parameters from .\data_path_save\1528288718\checkpoints/model-200"
+"2018-06-11 14:20:43,315 - tf_logging.py[line:116] - INFO: Restoring parameters from .\data_path_save\1528288718\checkpoints/model-200"
+"2018-06-11 14:24:05,531 - main.py[line:77] - INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1528288718', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='test', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)"
+"2018-06-11 14:24:07,451 - model.py[line:170] - INFO: =========== testing ==========="
+"2018-06-11 14:24:07,451 - model.py[line:170] - INFO: =========== testing ==========="
+"2018-06-11 14:24:07,451 - tf_logging.py[line:116] - INFO: Restoring parameters from .\data_path_save\1528288718\checkpoints/model-200"
+"2018-06-11 14:24:07,451 - tf_logging.py[line:116] - INFO: Restoring parameters from .\data_path_save\1528288718\checkpoints/model-200"
