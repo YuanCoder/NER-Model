@@ -1,7 +1,6 @@
 ## A simple BiLSTM-CRF model for NER
 识别会计领域的实体（下次把计算机方向的加上）  
-This code works on __Python 3 & TensorFlow 1.2__ and the following repository [https://github.com/guillaumegenthial/sequence_tagging](https://github.com/guillaumegenthial/sequence_tagging) gives me much help.
-
+This code works on __Python 3 & TensorFlow 1.2__ 
 ### model
 模型架构下图
 ![Network](./pics/pic1.png)
