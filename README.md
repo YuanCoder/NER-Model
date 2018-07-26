@@ -6,7 +6,7 @@ This code works on __Python 3 & TensorFlow 1.2__ and the following repository [h
 模型架构下图
 ![Network](./pics/pic1.png)
 
-对于每一个输入的中文语句，语句中的每个字都会对应于集合{0，B-PER，I-PER，B-LOC，I-LOC，B-ORG，I-ORG}中的一个tag。
+对于每一个输入的中文语句，语句中的每个字都会对应于集合{O，B-Acc，M-Acc，E-Acc}中的一个tag。
 
 模型的第一个layer (__look-up layer__)，用于将字的one-hot向量表示转化为 *character embedding（词嵌入）* 。在本模型实现中，并没有提前训练好Word2vec向量模型对字进行初始化，而仅仅是简单的随机初始化，此处是以后待改进的一个地方。
 

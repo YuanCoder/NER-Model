@@ -9,9 +9,7 @@ import numpy as np
 #              }
 
 tag2label = {"O": 0,
-             "B-State": 1, "M-State": 2,"E-State": 3,
-             "B-Process": 4, "M-Process": 5,"E-Process": 6,
-             "B-Organization": 7, "M-Organization": 8,"E-Organization": 9
+             "B-Acc": 1, "M-Acc": 2,"E-Acc": 3
              }
 
 
@@ -25,8 +23,13 @@ def read_corpus(corpus_path):
     with open(corpus_path, encoding='utf-8') as fr:
         lines = fr.readlines()
     sent_, tag_ = [], []
+    index=0;
     for line in lines:
+        index = index + 1;
         if line != '\n':
+            line = line.lstrip()
+            # print("line={},行数={},长度={}".format(line ,index ,line.__len__()))
+            if line.__len__() == 6 or line.__len__() == 2 : continue
             [char, label] = line.strip().split()
             sent_.append(char)
             tag_.append(label)
@@ -39,9 +42,9 @@ def read_corpus(corpus_path):
 
 def vocab_build(vocab_path, corpus_path, min_count):
     """
-    英文字符并没有从全角转为半角，后期实现
-    :param vocab_path:
-    :param corpus_path:
+    生成 pkl
+    :param vocab_path:  pkl 保存地址
+    :param corpus_path: 语料地址
     :param min_count:
     :return:
     """
@@ -146,7 +149,7 @@ def batch_yield(data, batch_size, vocab, tag2label, shuffle=False):
     :param vocab:   字典
     :param tag2label:
     :param shuffle: 是否随机
-    :return:
+    :return: 词对应的数字  标签对应的数字
     """
     if shuffle:
         random.shuffle(data)    #随机排序
@@ -165,4 +168,3 @@ def batch_yield(data, batch_size, vocab, tag2label, shuffle=False):
 
     if len(seqs) != 0:
         yield seqs, labels
-

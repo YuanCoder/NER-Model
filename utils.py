@@ -13,174 +13,65 @@ def str2bool(v):
 
 # 获取不同的实体
 def get_entity(tag_seq, char_seq):
-    #PER = get_PER_entity(tag_seq, char_seq)
-    STATE = get_state_entity(tag_seq, char_seq) #获取描述性知识
-    PROCESS = get_process_entity(tag_seq, char_seq) #获取过程性知识
-    ORG = get_Organization_entity(tag_seq, char_seq) #获取组织
-    return STATE, PROCESS, ORG
+    return get_acc_entity(tag_seq, char_seq) # 获取会计知识实体
 
 
-def get_PER_entity(tag_seq, char_seq):
+# 获取会计知识实体
+def get_acc_entity(tag_seq, char_seq):
     length = len(char_seq)
-    PER = []
+    ACC = []
     for i, (char, tag) in enumerate(zip(char_seq, tag_seq)):
-        if tag == 'B-PER':
-            if 'per' in locals().keys():
-                PER.append(per)
-                del per
-            per = char
-            if i+1 == length:
-                PER.append(per)
-        if tag == 'I-PER':
-            per += char
-            if i+1 == length:
-                PER.append(per)
-        if tag not in ['I-PER', 'B-PER']:
-            if 'per' in locals().keys():
-                PER.append(per)
-                del per
-            continue
-    return PER
-
-# 获取描述知识实体
-def get_state_entity(tag_seq, char_seq):
-    length = len(char_seq)
-    STATE = []
-    for i, (char, tag) in enumerate(zip(char_seq, tag_seq)):
-        if tag == 'B-State':
-            if 'state' in locals().keys():
-                STATE.append(state)
-                del state
-            state = char
+        if tag == 'B-Acc':
+            if 'acc' in locals().keys():
+                ACC.append(acc)
+                del acc
+            acc = char
             if i + 1 == length:
-                STATE.append(state)
-        if tag == 'M-State':
-            if 'state' not in locals().keys():
-                state=char
+                ACC.append(acc)
+        if tag == 'M-Acc':
+            if 'acc' not in locals().keys():
+                acc=char
             else:
-                state += char
+                acc += char
             if i + 1 == length:
-                STATE.append(state)
-        if tag == 'E-State':
-            if 'state' not in locals().keys():
-                state = char
+                ACC.append(acc)
+        if tag == 'E-Acc':
+            if 'acc' not in locals().keys():
+                acc = char
             else:
-                state += char
+                acc += char
             if i + 1 == length:
-                STATE.append(state)
-        if tag not in ['B-State', 'M-State', 'E-State']:
-            if 'state' in locals().keys():
-                STATE.append(state)
-                del state
+                ACC.append(acc)
+        if tag not in ['B-Acc', 'M-Acc', 'E-Acc']:
+            if 'acc' in locals().keys():
+                ACC.append(acc)
+                del acc
             continue
-    return STATE
+    return ACC
 
+#词条数据读取 返回
+def readword(file_url):
+    wordList = [] #词条列表
+    with open(file_url, "r+",encoding='utf-8') as f:
+        text =f.read()
+    return text
 
-def get_LOC_entity(tag_seq, char_seq):
-    length = len(char_seq)
-    LOC = []
-    for i, (char, tag) in enumerate(zip(char_seq, tag_seq)):
-        if tag == 'B-LOC':
-            if 'loc' in locals().keys():
-                LOC.append(loc)
-                del loc
-            loc = char
-            if i+1 == length:
-                LOC.append(loc)
-        if tag == 'I-LOC':
-            loc += char
-            if i+1 == length:
-                LOC.append(loc)
-        if tag not in ['I-LOC', 'B-LOC']:
-            if 'loc' in locals().keys():
-                LOC.append(loc)
-                del loc
-            continue
-    return LOC
+#写请求接口失败/正常的 词条
+def write_word(file_url, text):
+    with open(file_url, "a+",encoding='utf-8') as f:
+        f.write(text+'\n')
+# 分句
+def cut_sentences(sentence):
+    puns = frozenset(u'。！？')
+    tmp = []
+    for ch in sentence:
+        tmp.append(ch)
+        if puns.__contains__(ch):
+            yield ''.join(tmp)
+            tmp = []
+    yield ''.join(tmp)
 
-# 获取过程性知识实体
-def get_process_entity(tag_seq, char_seq):
-    length = len(char_seq)
-    PROCESS = []
-    for i, (char, tag) in enumerate(zip(char_seq, tag_seq)):
-        if tag == 'B-Process':
-            if 'process' in locals().keys():
-                PROCESS.append(process)
-                del process
-            process = char
-            if i+1 == length:
-                PROCESS.append(process)
-        if tag == 'M-Process':
-            if 'process' not in locals().keys():
-                process=char
-            else:
-                process += char
-            if i+1 == length:
-                PROCESS.append(process)
-        if tag == 'E-Process':
-            process += char
-            if i+1 == length:
-                PROCESS.append(process)
-        if tag not in ['B-Process', 'M-Process', 'E-Process']:
-            if 'process' in locals().keys():
-                PROCESS.append(process)
-                del process
-            continue
-    return PROCESS
-
-
-def get_ORG_entity(tag_seq, char_seq):
-    length = len(char_seq)
-    ORG = []
-    for i, (char, tag) in enumerate(zip(char_seq, tag_seq)):
-        if tag == 'B-ORG':
-            if 'org' in locals().keys():
-                ORG.append(org)
-                del org
-            org = char
-            if i+1 == length:
-                ORG.append(org)
-        if tag == 'I-ORG':
-            org += char
-            if i+1 == length:
-                ORG.append(org)
-        if tag not in ['I-ORG', 'B-ORG']:
-            if 'org' in locals().keys():
-                ORG.append(org)
-                del org
-            continue
-    return ORG
-
-# 获取组织实体
-def get_Organization_entity(tag_seq, char_seq):
-    length = len(char_seq)
-    ORG = []
-    for i, (char, tag) in enumerate(zip(char_seq, tag_seq)):
-        if tag == 'B-Organization':
-            if 'organization' in locals().keys():
-                ORG.append(org)
-                del org
-            org = char
-            if i+1 == length:
-                ORG.append(org)
-        if tag == 'M-Organization':
-            if 'process' not in locals().keys():
-                process=char
-            else:
-                org += char
-            if i+1 == length:
-                ORG.append(org)
-        if tag == 'E-Organization':
-            org += char
-            if i+1 == length:
-                ORG.append(org)
-        if tag not in ['B-Organization', 'M-Organization', 'E-Organization']:
-            if 'organization' in locals().keys():
-                ORG.append(org)
-                del org
-            continue
-    return ORG
-
+#日志函数
 def get_logger(filename):
     # 输出格式
     __fmt = "%(asctime)s - %(filename)s[line:%(lineno)d] - %(levelname)s: %(message)s"
@@ -192,3 +83,4 @@ def get_logger(filename):
     handler.setFormatter(logging.Formatter(__fmt))
     logging.getLogger().addHandler(handler)
     return logger
+

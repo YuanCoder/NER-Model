@@ -130,5 +130,5 @@ elif args.mode == 'demo':
                 # print(demo_data)
                 print(tag)
                 print("********************")
-                STATE, PROCESS, ORG = get_entity(tag, demo_sent)
-                print('STATE: {}\nProcess: {}\nOrganization: {}'.format(STATE, PROCESS, ORG))
+                ACC = get_entity(tag, demo_sent)
+                print('ACC: {}\n'.format(ACC))
