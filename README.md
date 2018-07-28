@@ -1,8 +1,8 @@
 ## A simple BiLSTM-CRF model for NER
 识别会计领域的实体（下次把计算机方向的加上）  
 This code works on __Python 3 & TensorFlow 1.2__ 
-### model
-模型架构图如下：
+
+### 模型架构图如下：
 ![Network](./pics/pic1.png)
 
 对于每一个输入的中文语句，语句中的每个字都会对应于集合{O，B-Acc，M-Acc，E-Acc}中的一个tag。
@@ -13,7 +13,7 @@ This code works on __Python 3 & TensorFlow 1.2__
 
 模型的第三个layer (__CRF layer__)， 对每句话中的标签进行标注。如果我们用 __Softmax layer__ 进行标注，我们将得到无语法结构的标注答案， 因为 softmax 无法独立地对每个位置进行标注。
 
-Tensorflow 模型图如下：   
+### Tensorflow 模型图如下：   
 ![Network](./pics/model_graph.png)
 ### train
 
